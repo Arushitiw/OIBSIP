@@ -1,0 +1,144 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    box-sizing: border-box;
+    color:rgb(255, 255, 255);
+    scroll-behavior: smooth;
+    
+}
+body{
+    background-image: url("./assests/backgr.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ nav h1{
+    font-size: 30px;
+    margin-left: 5%;
+    color:white;
+    
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-top: 1%;
+}
+a{
+    color:white;
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 85px;
+    text-decoration: none;
+    margin-right: 7%;
+
+    
+
+}
+li
+{
+    text-decoration: none;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    color: black;
+    
+
+}
+li:hover{
+font-size: 20px;
+    font-weight: 700;
+}
+
+i
+{
+    font-size: 27px;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 25px;
+    text-shadow: 2px 2px 2px grey;
+    
+}
+i:hover{
+    text-decoration: underline;
+}
+
+/*main section*/
+
+section
+{
+    text-align: center;
+margin-top:1%;
+height: 350px;
+}
+section h1
+{
+    color:white;
+font-size:72px;
+font-weight:900;
+
+}
+h5{
+    
+    font-size: 20px;
+    font-weight: 400;
+    color:white;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:tomato;
+    text-decoration: none;
+}
+
+.head
+{
+    background-color:rgba(0, 0, 0, 0.803) ;
+}
+.head:hover{
+    background: tomato;
+    border:3px solid black
+}
+
+button
+{
+padding:10px 28px;
+font-size:15px;
+font-weight:900;
+border-radius:12px;
+margin-top:2%;
+cursor:pointer;
+justify-content: space-between;
+}
+#but1
+{
+color:white;
+background-color:black;
+text-shadow:2px 2px 2px black;
+}
+#but2{
+    color:black;
+    text-shadow:1px 1px 2px white;
+    margin-left: 5%;
+    
+}
+#but1:hover{
+background:tomato;
+border:3px solid black;
+}
+#but2:hover{
+    background: tomato;
+    border:3px solid black;
+}
+
